@@ -37,6 +37,6 @@ const beerSchema = new Schema(
   { timestamps: true }
 )
 
-const Beer = mongoose.model('Blog', blogSchema)
+const Beer = mongoose.model('Beer', beerSchema)
 
 export { Beer }
